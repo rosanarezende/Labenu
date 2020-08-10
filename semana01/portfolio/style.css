@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+    color: #3A3E3D;
+}
+
+/* CABEÇALHO */
+
+header {
+    padding: 0 2%;
+    background-color: #99D4C0;
+    opacity: 0.9;
+    display: grid;
+    grid-template-columns: 1fr 6fr 1fr;
+    min-height: 10vh;
+    max-height: 15vh;
+}
+
+header li {
+    display: inline-table;
+    list-style-type: none;
+    padding: 2%;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header section, nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    font-size: 1rem;
+}
+
+nav a:active, nav a:hover {
+    background-color: #E2E7EA;
+    transition: 2s;
+    border-radius: 100%;
+}
+
+#logo {
+    max-width: 90%;
+    max-height: 90%;
+}
+
+.social-networks {
+    opacity: 0.5;
+    max-height: 25px;
+    padding: 5%;
+}
+
+
+/* CORPO */
+
+main {
+    background-color: #E2E7EA;
+    font-size: 16px;
+    padding: 2%;
+}
+
+#index {
+    padding: 2% 15%;
+    text-align: center;
+}
+
+#imagem-central {
+    border-radius: 50%;
+    max-width: 70%;
+}
+
+h1 {
+    color: #429d86;
+    padding-bottom: 2%;
+}
+
+h2 {
+    color: #429d86;
+    opacity: 0.8;
+    padding-top: 2%;
+    padding-bottom: 0.5%;
+}
+
+p {
+    padding-bottom: 0.5%;
+}
+
+#carreira section:first-of-type{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr 1fr; */
+}
+
+
+
+#carreira > section {
+    background-color: #F9F9DF;
+    font-size: 14px;
+    padding: 2%;
+    text-align: justify;
+}
+
+#carreira img {
+    max-width: 70%;
+    border-radius: 50%;
+}
+
+#carreira a {
+    color: #429d86;
+    opacity: 0.4;
+}
+
+
+
+
+
+
+
+
+
+#central2 {
+    background-color: #F9F9DF;
+    font-size: 14px;
+    padding: 2%;
+    text-align: justify;
+}
+
+#central2 h2 {
+    display: inline;
+    font-size: 1.2em;
+}
+
+/* h3 {
+    background-color: rgb(182, 206, 198);
+} */
+
+#central2 img {
+    max-width: 50%;
+    text-align: center;
+    border-radius: 50%;
+    margin-left: 20%;
+    padding: 10%;
+}
+
+
+
+#div3 {
+    display: inline-table;
+    width: 43%;
+    padding: 3%;
+}
+
+#div4 {
+    display: inline-table;
+    width: 22%;
+    padding: 1%;
+    text-align: justify;
+}
+
+#div4 h1 {
+    background-color: #F9F9DF;
+    font-size: 1.6em;
+    text-align: center;
+}
+/* 
+#div4 a {
+    /* text-decoration: none; */
+    /* color: #429d86;
+} */
+
+
+
+
+
+/* RODAPE */
+
+footer {
+    background-color: #99D4C0;
+    padding: 10px;
+    text-align: center;
+    font-size: 12px;
+}
+
+
+
+
